@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Discord bot configuration detailes -
+# These are to be setup for each bot seperately
+
+config.json
