@@ -35,6 +35,6 @@ config_file = open(abs_path, "r")
 config = json.loads(config_file.read())
 
 sock = SocketInterface.Socket()
-sock.connect("localhost", 7201)
+sock.connect("localhost", 7777)
 
 client.run(config['token'])
